@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Menu from "./Menu";
 import Categories from "./Categories";
 import items from "./data";
-import logo from "./logo.JPG";
+import logo from "./Images/download.jfif";
 
 const allCategories = ["all", ...new Set(items.map((item) => item.category))];
 

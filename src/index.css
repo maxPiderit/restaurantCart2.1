@@ -112,6 +112,15 @@ p {
   display: block;
 }
 
+.video {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  border: 0.25rem solid hsl(360, 71%, 66%);
+  border-radius: 0.25rem;
+  display: block;
+}
+
 .logo {
   object-fit: cover;
   height: auto;
@@ -145,6 +154,9 @@ p {
   .photo {
     height: 175px;
   }
+  .video {
+    height: 175px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .section-center {
@@ -152,6 +164,9 @@ p {
     grid-template-columns: 1fr 1fr;
   }
   .photo {
+    height: 150px;
+  }
+  .video {
     height: 150px;
   }
 }
