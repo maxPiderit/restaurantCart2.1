@@ -78,14 +78,6 @@ const menu = [
     desc: `Para los románticos a la antigua. Seguro vuelven mañana.`,
   },
   {
-    id: 10,
-    title: 'Whisky Jack Daniels ¨On the Rocks¨',
-    category: 'Para Tomar',
-    price: 9.999,
-
-    desc: `Para los románticos a la antigua. Seguro vuelven mañana.`,
-  },
-  {
     id: 3,
     title: 'Godzilla Milkshake',
     category: 'Para Tomar',
