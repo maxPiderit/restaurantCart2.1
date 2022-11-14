@@ -7,7 +7,7 @@ const Menu = ({ items }) => {
         const { id, title, img, desc, price, vid } = item;
         return (
           <article key={id} className="menu-item">
-            {vid ? <video src={video} width="750" height="500" controls autoPlay muted className="video"></video> : <img src={img} alt={title} className="photo" />}
+            {vid ? <video src={video} width="750" height="500" controls autoPlay loop muted className="video"></video> : <img src={img} alt={title} className="photo" />}
             <div className="item-info">
               <header>
                 <h4>{title}</h4>
