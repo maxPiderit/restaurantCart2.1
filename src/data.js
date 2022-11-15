@@ -7,7 +7,7 @@ const menu = [
     category: 'Desayuno',
     price: 13.999,
     img: './images/item-4.jpeg',
-    desc: `Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, `,
+    desc: `Su nombre lo dice todo. Te aseguramos que no te arrepentirás.`,
   },
 
 

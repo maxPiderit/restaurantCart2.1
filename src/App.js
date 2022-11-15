@@ -4,7 +4,8 @@ import Categories from "./Categories";
 import items from "./data";
 import logo from "./Images/download.jfif";
 
-const allCategories = ["todos", ...new Set(items.map((item) => item.category))];
+const allCategories = [...new Set(items.map((item) => item.category))];
+// const allCategories = ["todos", ...new Set(items.map((item) => item.category))];
 
 const App = () => {
   const [menuItems, setMenuItems] = useState(items);
@@ -25,7 +26,7 @@ const App = () => {
       <section className="menu section">
         <div className="title">
           <img src={logo} alt="logo" className="logo" />
-          <h2>Menu List</h2>
+          <h2>Menú</h2>
           <div className="underline"></div>
         </div>
         <Categories
